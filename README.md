@@ -68,3 +68,11 @@
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=AnFox)](https://git.io/streak-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AnFox&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+### Code examples:
+
+React, Typescript
+https://bitbucket.org/illiondev/illion.admin/src/master/src/
+
+Laravel, PHP
+https://bitbucket.org/illiondev/illion.backend/src/master/
