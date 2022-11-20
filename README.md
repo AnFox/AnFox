@@ -16,7 +16,7 @@
 ---
 </div>  
 
-#### I am Andrey - web and mobile applications expert based in Cyprus
+#### I am a web and mobile applications expert based in Cyprus
 
 #### My tech stack:
 
