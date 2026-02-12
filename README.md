@@ -73,12 +73,15 @@ Web & Mobile Applications Engineer based in Cyprus 🇨🇾
 
 ## Stats
 
-<div align="center">
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=AnFox&show_icons=true&hide_border=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnFox&layout=compact&hide_border=true" />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api?username=AnFox&show_icons=true&hide_border=true" height="160" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnFox&layout=compact&hide_border=true" height="160" />
+<p align="center">
+  <img height="180" src="https://streak-stats.demolab.com?user=AnFox&hide_border=true" />
+</p>
 
-</div>
 
 ---
 
