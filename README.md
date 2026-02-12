@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there 👋 I'm Αντρεί
+# Hi there 👋 I'm Andy
 
 Web & Mobile Applications Engineer based in Cyprus 🇨🇾
 
