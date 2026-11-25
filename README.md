@@ -14,8 +14,15 @@ I work AI-native: coding agents are part of my daily toolchain.
 - **[WeavUp](https://weavup.app)** — AI networking agent for Telegram and MAX.
   Go on AWS Lambda + SQS, pgvector matching, LLM agents that search, introduce and negotiate,
   with validators against hallucinated promises and quote-grounded extraction.
+- **[Angel](https://angelai.ws)** — modular AI life assistant for Telegram and MAX.
+  Go on AWS Lambda, a tool-use agent with model fallbacks, 13 opt-in modules the user switches on by talking to the bot;
+  reminders moved from LLM-written text to structured events rendered by code.
 - **EdTech course platform** — built from scratch as a solo engineer: AI homework review (multimodal, JSON mode),
   RAG support knowledge base with streaming chat, messaging pipelines across two messengers.
+
+**Also shipped for clients:**
+[Explorentia](https://explorentia.eu) — QR-based village tours for Cyprus tourism, live in the client's own AWS account (Next.js, Hono on Lambda, Neon) ·
+[Root + Reach](https://rootreachyoga.com) — multi-tenant SaaS for yoga teachers with live video classes (LiveKit) and Stripe Connect payouts.
 
 ## Case studies
 
