@@ -1,84 +1,35 @@
-<div align="center">
+# Andrey Bolshakov
 
-Web & Mobile Applications Engineer based in Cyprus 🇨🇾
+AI product engineer in Limassol, Cyprus. Former CTO, still writing the code.
+I build LLM products end to end — retrieval, agents, guardrails, evals, cost — and ship them to production for real users.
+I work AI-native: coding agents are part of my daily toolchain.
 
-<a href="https://anroit.com/">
-  <img src="https://img.shields.io/badge/Website-anroit.com-red?style=for-the-badge&logo=google-chrome&logoColor=white" />
-</a>
-<a href="https://www.instagram.com/anroitdev/">
-  <img src="https://img.shields.io/badge/Instagram-@anroitdev-purple?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
+## What I'm building
 
-<img src="https://komarev.com/ghpvc/?username=AnFox&style=flat-square&color=blue" alt="profile views"/>
+- **[AnroAgents](https://anroagents.com)** — platform to build and embed AI agents on business websites.
+  RAG over customer content, a 9 KB embeddable widget with proactive triggers, WordPress and Shopify integrations,
+  an A2A endpoint and its own ARD agent registry so other AI assistants can find customers' agents.
+  Open source: **[anroagents-mcp](https://github.com/Anrotech/anroagents-mcp)** — MCP server
+  ([`@anroagents/mcp-server`](https://www.npmjs.com/package/@anroagents/mcp-server)) to create and manage agents from Claude and other MCP clients.
+- **[WeavUp](https://weavup.app)** — AI networking agent for Telegram and MAX.
+  Go on AWS Lambda + SQS, pgvector matching, LLM agents that search, introduce and negotiate,
+  with validators against hallucinated promises and quote-grounded extraction.
+- **EdTech course platform** — built from scratch as a solo engineer: AI homework review (multimodal, JSON mode),
+  RAG support knowledge base with streaming chat, messaging pipelines across two messengers.
 
-</div>
+## Case studies
 
----
+- [An AI product analyst embedded in a client team](case-studies/ai-product-analyst.md) — a Telegram agent that answers product questions from read-only code and production data, prices changes and triages errors, with a human approving every deploy.
+- [Three evidence-based decisions on an AI agent platform](case-studies/anroagents-decisions.md) — choosing the model on the real pipeline, pricing so no plan loses money, and shutting down a distribution channel nobody used.
 
-## Tech stack
+## Stack
 
-### Backend
-<div>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" title="PHP" alt="PHP" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original-wordmark.svg" title="Laravel" alt="Laravel" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/yii/yii-original-wordmark.svg" title="Yii" alt="Yii" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/zend/zend-original.svg" title="Zend" alt="Zend" width="40" height="40"/>&nbsp;
+**AI:** RAG (pgvector), agents and tool use, MCP, A2A, structured extraction, multimodal, LLM cost tracking ·
+Claude, Mistral, DeepSeek, OpenAI, xAI Grok, OpenRouter
+**Backend:** Go, PHP / Laravel, Node.js, Python · PostgreSQL (Neon), DynamoDB, Redis, SQS
+**Frontend:** React, Vue 3, TypeScript, Tailwind, Telegram mini-apps
+**Cloud:** AWS (Lambda, SAM, S3, CloudFront, Cognito), GitHub Actions, Sentry
 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg" title="Go" alt="Go" width="40" height="40"/>&nbsp;
+## Elsewhere
 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" title="Node.js" alt="Node.js" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-original.svg" title="NestJS" alt="NestJS" width="40" height="40"/>&nbsp;
-</div>
-
-### Frontend
-<div>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" title="Next.js" alt="Next.js" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" title="Vue.js" alt="Vue.js" width="40" height="40"/>&nbsp;
-
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" title="Redux" alt="Redux" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp;
-
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML5" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain-wordmark.svg" title="CSS3" alt="CSS3" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
-</div>
-
-### Databases
-<div>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" alt="Firebase" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" alt="MySQL" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" title="PostgreSQL" alt="PostgreSQL" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" title="Redis" alt="Redis" width="40" height="40"/>&nbsp;
-</div>
-
-### Cloud & Tools
-<div>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" title="AWS" alt="AWS" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" title="Google Cloud" alt="Google Cloud" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/digitalocean/digitalocean-original.svg" title="DigitalOcean" alt="DigitalOcean" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" title="Docker" alt="Docker" width="40" height="40"/>&nbsp;
-</div>
-
-### Mobile
-<div>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" title="Flutter" alt="Flutter" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original-wordmark.svg" title="Dart" alt="Dart" width="40" height="40"/>&nbsp;
-</div>
-
----
-
-## Stats
-
-<p align="center">
-  <img height="180" src="https://streak-stats.demolab.com?user=AnFox&hide_border=true" />
-</p>
-
-
----
-
-## Code examples
-
-- **React / TypeScript** — https://bitbucket.org/illiondev/illion.admin/src/master/src/  
-- **Laravel / PHP** — https://bitbucket.org/illiondev/illion.backend/src/master/
+[LinkedIn](https://www.linkedin.com/in/andrey-v-bolshakov) · [ANRO Technologies](https://anroit.com)
