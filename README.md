@@ -11,10 +11,10 @@ I work AI-native: coding agents are part of my daily toolchain.
   an A2A endpoint and its own ARD agent registry so other AI assistants can find customers' agents.
   Open source: **[anroagents-mcp](https://github.com/Anrotech/anroagents-mcp)** — MCP server
   ([`@anroagents/mcp-server`](https://www.npmjs.com/package/@anroagents/mcp-server)) to create and manage agents from Claude and other MCP clients.
-- **[WeavUp](https://weavup.app)** — AI networking agent for Telegram and MAX.
+- **[WeavUp](https://weavup.app)** — AI networking agent in Telegram.
   Go on AWS Lambda + SQS, pgvector matching, LLM agents that search, introduce and negotiate,
   with validators against hallucinated promises and quote-grounded extraction.
-- **[Angel](https://angelai.ws)** — modular AI life assistant for Telegram and MAX.
+- **[Angel](https://angelai.ws)** — modular AI life assistant in Telegram.
   Go on AWS Lambda, a tool-use agent with model fallbacks, 13 opt-in modules the user switches on by talking to the bot;
   reminders moved from LLM-written text to structured events rendered by code.
 - **EdTech course platform** — built from scratch as a solo engineer: AI homework review (multimodal, JSON mode),
